@@ -1,0 +1,50 @@
+body {
+  background-color: white;
+}
+
+nav {
+  background-color: rgb(28, 145, 28);
+  padding: 2rem 0rem;
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+main {
+  display: flex;
+  gap: 4rem;
+  padding: 2rem;
+}
+
+.cohorts > li {
+  padding-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.students-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+
+.student-card {
+  border: 2px solid rgb(28, 145, 28);
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
